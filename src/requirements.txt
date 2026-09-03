@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+python-multipart
+markitdown[docx,pdf,xlsx,xls]
+langgraph
+langgraph-checkpoint-sqlite
+langchain-ollama

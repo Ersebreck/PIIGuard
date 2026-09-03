@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.sqlite
+piiguard.db
+.pytest_cache/
+test_files/

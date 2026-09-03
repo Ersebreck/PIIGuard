@@ -1,0 +1,6 @@
+Extract all contextual personally identifiable information (PII) from the text below: people's names, addresses. Do not include emails, phone numbers, or national ID numbers (those are detected separately by regex).
+
+Respond ONLY with JSON: [{{"value": "...", "type": "NAME|ADDRESS"}}]. If there is nothing: [].
+
+Text:
+{text}

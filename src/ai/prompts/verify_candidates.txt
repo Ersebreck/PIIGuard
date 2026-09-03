@@ -1,0 +1,8 @@
+Review this list of PII candidates extracted from a text and confirm which ones are actually personally identifiable information. Discard false positives: common words, company names, generic places, defined-term role labels (e.g. "la Parte Reveladora", "el Comprador"), and blank form/signature field labels (e.g. "Nombre:", "Cargo:", "Cédula:" followed by an empty line or underscores) where no actual value is filled in.
+
+Candidates: {candidates}
+
+Original text:
+{text}
+
+Respond ONLY with JSON of the confirmed candidates: [{{"value": "...", "type": "NAME|ADDRESS"}}]
